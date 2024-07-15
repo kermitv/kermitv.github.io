@@ -1,0 +1,13 @@
+{
+    "name": "Jekyll Dev Container",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "forwardPorts": [4000],
+    "mounts": [
+      "source=${localWorkspaceFolder},target=/workspace,type=bind"
+    ],
+    "settings": {},
+    "extensions": []
+  }
+  
